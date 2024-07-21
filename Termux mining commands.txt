@@ -1,0 +1,19 @@
+execute every command one by one
+
+
+
+apt update && apt upgrade -y
+apt install git
+apt install wget
+apt install proot
+it clone https://github.com/xmrig/xmrigg
+cd xmrig
+mkdir build
+cd bulid  
+pkg intsall cmake
+cmake -DWITH_HWLOC=OFF ..
+make
+./xmrig -o rx.unmineable.com:3333 -a rx -k -u BTT:TXsCRU5AhWH1YBFHF9kXbeM6PXFPyJpn8S.saurabh
+
+
+subscribe to startupshouter channel
